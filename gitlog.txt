@@ -1,0 +1,15 @@
+fd3fe08 Merge pull request #1 from DerebeWalton/feature-DerebeWalton
+d4c845b Added derek.txt
+dee6282 Merge branch 'features'
+47dd525 update new_features.txt
+7edf1f2 modify new_features.txt
+41125c4 Merge branch 'features'
+2418247 add text to file_1.txt
+3aabe58 modify new_features
+7be17f5 add empty file
+ee4bb4d add api keys to .gitignore
+d5291ec create and modify .gitignore
+fabc7a5 create and modify readme file
+c9c7950 modify file_2.txt
+1c7e174 modify file_1.txt
+3184e9e create new files

@@ -1,0 +1,153 @@
+    1  git --version
+    2  git config --global user.name KeepTheBarlow
+    3  git config --global user.email tylersbarlow@gmail.com
+    4  git config --list
+    5  git config --global init.defaultBranch main
+    6  git config --list
+    7  git config --global init.defaultbranch main
+    8  git config --list
+   22  git --version
+   23  git status
+   24  git config --global init.defaultBranch main
+   25  git config --list
+   34  mkdir git-practice
+   36  cd git-practice/
+   38  git status
+   39  git init
+   40  git status
+   42  rm -rf .git
+   43  git status
+   46  git init
+   50  mkdir git-practice-KeepTheBarlow
+   52  rm -rf git-practice
+   54  cd git-practice-KeepTheBarlow/
+   55  git init
+   66  cd git-practice-KeepTheBarlow/
+   71  git status
+   73  git add .
+   74  git status
+   75  git rm --cached file2.txt
+   77  git status
+   78  git add file2.txt 
+   79  git rm --cached file2.txt
+   80  git commit -m 'Add file1.txt'
+   81  git add .
+   82  git status
+   83  git commit -m 'Add file2.txt'
+   84  git status
+   86  git log
+   87  git list
+   88  git --list
+   89  git log --oneline
+   90  touch .gitignore
+   91  git add .
+   92  git status
+   93  git commit -m 'Add gitignore and update'
+   95  git status
+   96  git remote -v
+   97  git remote add origin git@github.com:KeepTheBarlow/git-practice-KeepTheBarlow.git
+   98  git remote -v
+   99  git push -u origin main
+  100  git status
+  101  git log
+  106  git push -u origin main
+  115  mkdir git-practice-KeepTheBarlow
+  117  cd git-practice-KeepTheBarlow/
+  118  git init
+  121  git status
+  125  git status
+  126  git add .
+  127  git status
+  128  git commit -m 'create new files'
+  129  git status
+  130  git log
+  131  git status
+  132  git add file_1
+  133  git add file_1.txt
+  134  git commit -m 'modify file_1.txt'
+  135  git status
+  136  git add file_2.txt
+  137  git status
+  138  git commit -m 'modify file_2.txt'
+  139  git log
+  142  git add .
+  143  git status
+  144  git commit -m 'create and modify readme file'
+  145  git status
+  147  touch .gitignore
+  150  git add .
+  151  git commit -m 'create and modify .gitignore'
+  152  git status
+  154  git status
+  155  git status
+  156  git add .
+  157  git status
+  158  git commit -m 'add api keys to .gitignore'
+  159  git status
+  160  git branch features
+  161  git branch
+  162  git switch features
+  163  git branch
+  164  git log
+  166  git add .
+  167  git status
+  168  git commit -m 'add empty file'
+  169  git add .
+  170  git status
+  171  git commit -m 'modify new_features'
+  173  git switch main
+  175  git status
+  176  git add .
+  177  git commit -m 'add text to file_1.txt'
+  178  git merge features
+  185  cd git-practice-KeepTheBarlow/
+  186  git log
+  187  git status
+  188  git log
+  189  git commit
+  190  git config --global core.editor "code --wait"
+  191  git commit
+  192  git status
+  194  cd AAA_BYU_Work/AAA_Fall_2024/stat386/git-practice-KeepTheBarlow/
+  195  git status
+  196  git commit
+  197  rm .git/HEAD.lock
+  198  git commit
+  199  git log
+  202  cd git-practice-KeepTheBarlow/
+  203  git log --oneline
+  204  git status
+  205  git add .
+  206  git commit -m 'modify new_features.txt'
+  207  git switch features
+  208  git status
+  209  git add .
+  210  git commit -m 'update new_features.txt'
+  211  git switch main
+  212  git merge features
+  213  git status
+  216  git log --oneline
+  217  git branch -d features
+  218  git remote add origin git@github.com:KeepTheBarlow/git-practice-KeepTheBarlow.git
+  219  git push -u origin main
+  220  git log --oneline
+  223  git clone git@github.com:KeepTheBarlow/git-practice-DerebeWalton.git
+  225  git branch feature-KeepTheBarlow
+  226  cd git-practice-DerebeWalton/
+  227  git branch feature-KeepTheBarlow
+  229  git status
+  230  git add .
+  231  git commit -m 'create tyler_was_here.txt'
+  232  git push origin feature-KeepTheBarlow
+  234  git status
+  235  git log --oneline
+  236  git switch feature-KeepTheBarlow
+  239  git push origin feature-KeepTheBarlow
+  240  git status
+  241  git add .
+  242  git commit -m 'add tyler_was_here.txt to branch'
+  243  git push origin feature-KeepTheBarlow
+  245  cd git-practice-KeepTheBarlow/
+  247  git pull
+  248  git log --oneline > gitlog.txt
+  249  history | grep git > history.txt
